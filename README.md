@@ -6,4 +6,6 @@
 # npm install react-bootstrap bootstrap
 # npm i bootstrap@5.3.0
 
-#  2. then npm start
+#
+
+#  2. Then npm start
