@@ -5,3 +5,5 @@
 # npm install firebase 
 # npm install react-bootstrap bootstrap
 # npm i bootstrap@5.3.0
+
+#  2. then npm start
