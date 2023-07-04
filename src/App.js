@@ -10,6 +10,7 @@ import {BrowserRouter as Router,Route,Routes} from "react-router-dom"
 import { AuthContextProvider } from './contexts/AuthContext';
 import Info from './pages/Info';
 import Contacts from './pages/Contacts';
+import Read from './pages/Read';
 
 
 
@@ -27,6 +28,7 @@ function App() {
             <Route path="/Info" exact element={<Info/>}/>
             <Route path="/Contacts" exact element={<Contacts/>}/>
             <Route path='/SignUp' exact element={<SignUp/>}/>
+            <Route path='/read/:id' element={<Read/>}/>
           </Routes>
           <Footer/>
         </Router> 

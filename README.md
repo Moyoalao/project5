@@ -5,6 +5,7 @@
 # npm install firebase 
 # npm install react-bootstrap bootstrap
 # npm i bootstrap@5.3.0
+# npm i axios
 
 #
 
