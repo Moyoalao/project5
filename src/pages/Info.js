@@ -1,6 +1,6 @@
 import React,{useEffect, useState} from 'react'
 import axios from 'axios'
-import { Button, Card } from 'react-bootstrap'
+import { Button, Card,CardGroup,Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 function Info() {
@@ -19,10 +19,10 @@ function Info() {
 
   return (
     <div style={{marginTop:'100px'}}>
-      <div>   
+      <CardGroup>  
         {data.map((articles, index)=>{
-          return <Card border="dark" style={{ width: '18rem' }} key={index} >
-          <Card.Img variant="top" src="../assets/brain.jpg/100px180" />
+          return <Card border="dark"  style={{ width: '18rem' }} key={index} >
+          <Card.Img variant="top" src="../assets/brain.jpg" />
           <Card.Body>
             <Card.Title>{articles.title}</Card.Title>
             <Card.Text>
@@ -37,7 +37,7 @@ function Info() {
         </Card>
       
         })}
-     </div>
+     </CardGroup>
     </div>
   )
 }

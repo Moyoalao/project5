@@ -21,8 +21,6 @@ function Read() {
       <div>
         <h1>{article.title}</h1>
         <br/>
-        <h5>{article.writerID}</h5>
-        <br/>
         <p>{article.info}</p>
       </div>
     </div>
