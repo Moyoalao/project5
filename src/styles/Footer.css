@@ -1,0 +1,14 @@
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #fcfdfe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  
