@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Developmentnpm 
 
 # 1. run these terminal commmands  
@@ -10,3 +11,6 @@
 #
 
 #  2. Then npm start
+=======
+#README.md 
+>>>>>>> 0fde5d0078fcc85e634628edcbd2a7f22566561d
