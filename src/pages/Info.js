@@ -28,7 +28,7 @@ function Info() {
             <Card.Text>
             {articles.intro}
             </Card.Text>
-            <Link to={`/Read/${articles.articleID}`}><Button variant="primary" >ReadMore</Button></Link>
+            <Link to={`/Read/${articles.articleID}`}><Button variant="primary" >Read More</Button></Link>
             
           </Card.Body>
           <Card.Footer>
