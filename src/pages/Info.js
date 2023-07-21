@@ -19,7 +19,7 @@ function Info() {
 
   return (
     <div style={{marginTop:'100px'}}>
-      <CardGroup>  
+      <CardGroup> 
         {data.map((articles, index)=>{
           return <Card border="dark"  style={{ width: '18rem' }} key={index} >
           <Card.Img variant="top" src="../assets/brain.jpg" />
@@ -28,7 +28,7 @@ function Info() {
             <Card.Text>
             {articles.intro}
             </Card.Text>
-            <Link to={`/Read/${articles.articleID}`}><Button variant="primary" >ReadMore</Button></Link>
+            <Link to={`/Read/${articles.articleID}`}><Button variant="primary" >Read More</Button></Link>
             
           </Card.Body>
           <Card.Footer>

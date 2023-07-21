@@ -40,7 +40,7 @@ const Login=()=> {
                 <Form onSubmit={handleLogin}>
                   <Form.Group id='email'>
                     <Form.Label>Email</Form.Label>
-                    <Form.Control type='email' placeholder='admin@gmail.com' onChange={e=>setEmail(e.target.value)} required/>
+                    <Form.Control type='email' placeholder='email' onChange={e=>setEmail(e.target.value)} required/>
                   </Form.Group>
                   <Form.Group id='password'>
                     <Form.Label>Password</Form.Label>
